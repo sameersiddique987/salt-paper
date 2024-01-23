@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 7px 10px;
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
@@ -14,11 +14,22 @@
 .d-flex{
     display: flex;
 }
+
 .justify-center{
     justify-content: center;
 }
-.justify-between{
-    justify-content: space-between;
+.justify-start{
+    justify-content: flex-start;
+}
+
+.w{
+    text-align: justify;
+font-family: Verdana;
+
+}
+
+.justify-end{
+    justify-content: flex-end;
 }
 .justify-around{
     justify-content: space-around;
@@ -26,11 +37,17 @@
 .justify-evenly{
     justify-content: space-evenly;
 }
-.align-center{
-    align-items: center;
+
+.align-items{
+    align-items: start;
 }
+.align-end{
+    align-items: end;
+}
+
 .align-between{
     align-items: space-between;
+    
 }
 .align-around{
     align-items: space-around;
@@ -64,36 +81,55 @@
 .m-4{
     margin: 20px;
 }
-.mt-1{
-    margin-top: 5px;
+.mt-5{
+    margin-top: 32px 0px 0px;
 }
-.mt-2{
+.mt-6{
     margin-top: 10px;
 }
-.mt-3{
+.mt-7{
     margin-top: 15px;
 }
-.mt-4{
+.mt-8{
     margin-top: 20px;
 }
-
+.mt-9{
+    margin: 0px 0px 0px 0px;
+}
+.mt-10{
+    margin-top: 100px;
+}
 /* margin classes end */
 
 .bg-light{
-    background-color: #ffffff;
+    background-color:#ffffff;
 }
 .bg-dark{
     background-color: #000000;
 }
-.bg-grey{
-    background-color: #0f0f0f;
+
+.bg-ldark{
+    background-color: #ffffff0f;
 }
 
+
+
+
+.bg-grey{
+    background-color:gray(0, 87%, 46%);
+}
+.bg-red{
+    background-color: #ff0000;
+}
 .center{
     text-align: center;
 }
+
+.rounded-sf{
+    border-radius: 80px;
+}
 .rounded{
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .rounded-sm{
     border-radius: 10px;
@@ -102,15 +138,50 @@
     border-radius: 20px;
 }
 .text-dark{
-    color: #000000;
+    color:#000000;
 }
 .text-light{
     color: #ffffff;
 }
+.text-red{
+    color: #ff0000;
+}
+
+.bg-green{
+   background-color:#28A745;
+}
+
 .text-grey{
     color: rgba(255, 255, 255, 0.7);
 }
 
 .transparent{
     background-color: transparent;
+}
+.boader{box-sizing: 14px;}
+.width{
+    width: 400px;
+    height: 400px;
+}
+
+.f3{
+    color:#ffffff;
+    font: 24px ;
+    margin: 0px 0px 18px;
+}
+
+
+
+.padding{
+    padding:0px;
+    }
+
+.text{
+float: left;
+padding: 0px 0px 0px 0px;
+}
+
+.p-d{
+    padding: 0px 0px 0px 0px;
+    margin-left: 100px;
 }
